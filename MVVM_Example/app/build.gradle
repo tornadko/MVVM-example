@@ -4,8 +4,12 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
+    dataBinding {
+        enabled = true
+    }
+
     defaultConfig {
-        applicationId "example.mvvm.alex.mvvm_example"
+        applicationId "tornadko.mvvm.example"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
